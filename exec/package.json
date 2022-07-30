@@ -1,0 +1,37 @@
+{
+  "name": "@yarnpkg/plugin-exec",
+  "version": "3.0.0-rc.14",
+  "license": "BSD-2-Clause",
+  "main": "./sources/index.ts",
+  "dependencies": {
+    "@yarnpkg/fslib": "workspace:^",
+    "tslib": "^1.13.0"
+  },
+  "peerDependencies": {
+    "@yarnpkg/core": "workspace:^"
+  },
+  "devDependencies": {
+    "@yarnpkg/builder": "workspace:^",
+    "@yarnpkg/core": "workspace:^"
+  },
+  "scripts": {
+    "postpack": "rm -rf lib",
+    "prepack": "run build:compile \"$(pwd)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/yarnpkg/berry.git",
+    "directory": "packages/plugin-exec"
+  },
+  "publishConfig": {
+    "main": "./lib/index.js",
+    "typings": "./lib/index.d.ts"
+  },
+  "files": [
+    "/lib/**/*"
+  ],
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "stableVersion": "2.3.0"
+}
