@@ -1,0 +1,36 @@
+yarn config v1.22.19
+{
+  "registryFolders": [
+    "node_modules"
+  ],
+  "linkedModules": [
+    "foundry-hook"
+  ],
+  "cache": {},
+  "cwd": "~/foundry-exec",
+  "looseSemver": true,
+  "commandName": "config",
+  "preferOffline": false,
+  "globalFolder": "$HOME/.config/yarn/global",
+  "linkFolder": "$HOME/.config/yarn/link",
+  "offline": false,
+  "binLinks": true,
+  "ignorePlatform": false,
+  "ignoreScripts": false,
+  "disablePrepublish": false,
+  "nonInteractive": true,
+  "workspaceRootFolder": null,
+  "lockfileFolder": "~/foundry-exec",
+  "networkConcurrency": 8,
+  "childConcurrency": 5,
+  "networkTimeout": 30000,
+  "workspacesEnabled": true,
+  "workspacesNohoistEnabled": true,
+  "pruneOfflineMirror": false,
+  "enableMetaFolder": false,
+  "enableLockfileVersions": false,
+  "linkFileDependencies": false,
+  "cacheFolder": "~/.cache",
+  "tempFolder": "~/.tmp",
+  "production": false
+}
