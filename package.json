@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sambacha/foundry-exec#readme",
   "dependencies": {
+    "@types/node": "^16.11.47",
     "@yarnpkg/cli": "^4.0.0-rc.14",
     "@yarnpkg/core": "^4.0.0-rc.14",
     "@yarnpkg/fslib": "^3.0.0-rc.14",
