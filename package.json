@@ -1,0 +1,29 @@
+{
+  "name": "foundry-exec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/foundry-exec.git"
+  },
+  "keywords": [],
+  "author": "sam bacha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambacha/foundry-exec/issues"
+  },
+  "homepage": "https://github.com/sambacha/foundry-exec#readme",
+  "dependencies": {
+    "@yarnpkg/cli": "^4.0.0-rc.14",
+    "@yarnpkg/core": "^4.0.0-rc.14",
+    "@yarnpkg/fslib": "^3.0.0-rc.14",
+    "@yarnpkg/libzip": "^3.0.0-rc.14",
+    "@yarnpkg/parsers": "^3.0.0-rc.14",
+    "@yarnpkg/shell": "^4.0.0-rc.14",
+    "typescript": "4.7.4"
+  }
+}
